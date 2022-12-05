@@ -1,0 +1,37 @@
+﻿git branch -a - Mirar todas las rmas que hay
+---------------------------------------------------------------------
+git branch [rama] - Para crear una rama
+Ejemplo
+git branch feat_persona - Te crea una rama llamado feat_persona
+-----------------------------------------------------------------
+git checkout [rama] - Cambiar de rama
+Ejemplo
+git checkout feat_persona - cambia a la rama feat_persona 
+----------------------------------------------------------------
+
+git checkout -b rama = te crea la rama y te pasa a la rama creada
+git push --set-upstream origin feat_empleado - Para subir una rama
+git push --delete origin main - Para borrar la rama desde remoto
+git status - para mirar los cambios
+git add - para trackear
+git commit -m "" -Para comitear
+git push - para subir el contenido o proyecto a remoto
+git log --oneline - ver todos los commits
+git fetch - para actualizar el contenido a local
+git pull - para descargar el contenido a remoto
+git merge feat_persona - para unir dos ramas
+git reset --hard - Volvemos al último commit
+path - ruta relativa
+bin - binarios/ejecutables
+git push origin --delete "nombre de la rama" - Para elminar una rama remotamente
+git branch -d "nombre de la rama" - Para borrar rama locaclmente si esta vacio, "sin commits"
+git branch -D "nombre de la rama" - Si tiene contenido "commits" para borrar el rama localmente
+git checkout <hash_del_commit> - para consultar cualquier commit de un repositorio
+git diff HEAD - para ver las diferencias entre ese commit y el anterior
+	
+git log --online --graph --decorate --all = muestra el grafico de las ramas y su union
+
+git branch -r - para ver todas las ramas
+git remote -v - A que romoto estás conectado
+git remote remove origin - para borrar una url remoto que estes utilizando
+git restore --staged <file>. - va restaurar los cambios
